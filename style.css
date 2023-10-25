@@ -147,6 +147,7 @@ body {
     padding: 1.5rem 1.1rem 1.5rem 1.1rem;
     border-left: 6px solid navy;
     border-radius: .3rem;
+    box-shadow: 3px 3px 0.5px lightgray;
 }
 
 .card h3 {
@@ -199,4 +200,30 @@ body {
 
 .announcements .bottom-border > p {
     margin-bottom: 1rem;
+}
+
+.trending .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.trending .profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.trending .profile-picture {
+    height: 2.5rem;
+}
+
+.profile-info h3 {
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.profile-info p {
+    font-size: .72rem;
+    font-weight: 300;
 }
