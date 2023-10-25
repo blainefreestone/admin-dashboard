@@ -10,7 +10,7 @@ body {
 }
 
 .logo {
-    height: 1rem;
+    height: 1.2rem;
 }
 
 .profile-picture {
@@ -92,7 +92,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 1rem;
+    gap: 2.3rem;
 
     background-color: #1E90FF;
     color: white;
@@ -109,6 +109,10 @@ body {
     margin: 0;
 }
 
+.sidebar .logo {
+    margin-left: .9rem;
+}
+
 .sidebar .sidebar-header,
 .sidebar .sidebar-row {
     display: flex;
@@ -116,6 +120,13 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 1.3rem;
+}
+
+.sidebar-middle,
+.sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
 }
 
 .content {
